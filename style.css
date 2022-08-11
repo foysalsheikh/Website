@@ -1,0 +1,75 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0px;
+}
+
+/* Name selector */
+body {
+    background-color: brown;
+    color: red;
+}
+
+/* id selector */
+#admin-box {
+    background-color: black;
+    width: 50%;
+    text-align: center;
+    margin: 100px auto 0px;
+    padding: 20px;
+}
+
+from {
+    margin: 20px 0px;
+}
+
+/* desendent selector */
+#admin-box h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input,
+label {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+input:hover {
+    background-color: cyan;
+}
+
+
+
+label {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="submit"] {
+    width: 50%;
+    margin-top: 10%;
+    background-color: brown;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+}
+
+p {
+    margin: 10px 0px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
